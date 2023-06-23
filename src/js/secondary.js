@@ -15,9 +15,10 @@ export default class Blank {
 */
 
 export default class personsAge {
-    constructor(age, secondAge) {
+    constructor(age, secondAge, futureAge) {
         this.age = age;
         this.secondAge = secondAge;
+        this.futureAge = futureAge;
     }
     earthAge() {
         return parseInt(this.age / 1)  + " Years Old";
@@ -34,7 +35,7 @@ export default class personsAge {
     jupiterAge() {
         return parseFloat(this.age / 11.86) + " Years Old"; 
     }
-    //Methods used to determine different in years
+    //Methods used to determine difference in years
     earthPassedYears() {
         return parseInt(this.secondAge / 1)  - parseInt(this.age / 1) + " Years have passed";
     }
@@ -49,5 +50,21 @@ export default class personsAge {
     }
     jupiterPassedYears() {
         return parseFloat(this.secondAge / 11.86) - parseInt(this.age / 11.86) + " Years have passed"; 
+    }
+    //Methods used to determine difference in years for present and future years
+    earthFutureYears() {
+        return parseInt(this.futureAge / 1)  - parseInt(this.age / 1) + " Years to go";
+    }
+    mercuryFutureYears() {
+        return parseFloat(this.futureAge / 0.24) - parseInt(this.age / 0.24) + " Years to go";
+    }
+    venusFutureYears() {
+        return parseFloat(this.futureAge / 0.62) - parseInt(this.age / 0.62) + " Years to go";
+    }
+    marsFutureYears() {
+        return parseFloat(this.futureAge / 1.88) - parseInt(this.age / 1.88) + " Years to go";
+    }
+    jupiterFutureYears() {
+        return parseFloat(this.futureAge / 11.86) - parseInt(this.age / 11.86) + " Years to go"; 
     }
 }
