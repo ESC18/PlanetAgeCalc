@@ -13,3 +13,25 @@ export default class Blank {
         return this.here * this.there;
     }
 */
+
+export default class personsAge {
+    constructor(age, secondAge) {
+        this.age = age;
+        this.secondAge = secondAge;
+    }
+    earthAge() {
+        return parseInt(this.age / 1)  + " Years Old";
+    }
+    mercuryAge() {
+        return parseFloat(this.age / 0.24) + " Years Old";
+    }
+    venusAge() {
+        return parseFloat(this.age / 0.62) + " Years Old";
+    }
+    marsAge() {
+        return parseFloat(this.age / 1.88) + " Years Old";
+    }
+    jupiterAge() {
+        return parseFloat(this.age / 11.86) + " Years Old"; 
+    }
+}
