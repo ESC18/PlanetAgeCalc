@@ -34,4 +34,20 @@ export default class personsAge {
     jupiterAge() {
         return parseFloat(this.age / 11.86) + " Years Old"; 
     }
+    //Methods used to determine different in years
+    earthPassedYears() {
+        return parseInt(this.secondAge / 1)  - parseInt(this.age / 1) + " Years have passed";
+    }
+    mercuryPassedYears() {
+        return parseFloat(this.secondAge / 0.24) - parseInt(this.age / 0.24) + " Years have passed";
+    }
+    venusPassedYears() {
+        return parseFloat(this.secondAge / 0.62) - parseInt(this.age / 0.62) + " Years have passed";
+    }
+    marsPassedYears() {
+        return parseFloat(this.secondAge / 1.88) - parseInt(this.age / 1.88) + " Years have passed";
+    }
+    jupiterPassedYears() {
+        return parseFloat(this.secondAge / 11.86) - parseInt(this.age / 11.86) + " Years have passed"; 
+    }
 }
