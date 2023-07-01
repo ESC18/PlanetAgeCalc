@@ -10,3 +10,69 @@ body {
     font-family: Quicksand;
     font-size: 30px;
 }
+h1 {
+    color: #ff7700;
+    width: 100%;
+    border-bottom: #ffffff7e solid 3px;
+}
+
+h5 {
+    color: #ffffff;
+    margin-top: 10px;
+    border-bottom: #ffffff7e solid 3px;
+
+}
+
+.container {
+    position: absolute;
+    width: 500px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: #ffffff7e solid 5px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 96.5%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: Quicksand;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: Quicksand;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #ff7700;
+    color: #fff;
+    cursor: pointer;
+    font-family: Quicksand;
+
+}
+
+button:hover {
+    background-color: #151515;
+    color: #ff7700;
+}

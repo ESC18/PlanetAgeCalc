@@ -29,5 +29,5 @@ describe("Blank", () => {
         expect(age.venusFutureYears()).toEqual(32.38709677419355 + " Years to go");
         expect(age.marsFutureYears()).toEqual(10.957446808510639 + " Years to go");
         expect(age.jupiterFutureYears()).toEqual(2.5295109612141653 + " Years to go");
-    })
+    });
 });

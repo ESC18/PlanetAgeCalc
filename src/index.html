@@ -7,7 +7,27 @@
     <link rel="icon" type="image/x-icon" href="assets/images/SC.png">
 </head>
 <body>
-    <p>hello world 🌎</p>
-    <img src="./assets/images/SC.png" width="200px">
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <h5>Age is determined for each planet someone might live on.</h5>
+        <h5>Select Calculation Option:</h5>
+        <form id="optionSelect">
+            <select> 
+                <option value="present">Calculate your current Age</option>
+                <option value="future">Calculate length until future Year</option>
+                <option value="past">Calculate length since past Year</option>
+            </select>
+            <label for="current"> Enter Current Age:
+                <input id="current" type="number" placeholder="EX: 100" required>
+            </label>
+            <label for="future"> Enter Future Age:
+                <input id="future" type="number" placeholder="EX: 150">
+            </label>
+            <label for="past"> Enter Past Age:
+                <input id="past" type="number" placeholder="EX: 50">
+            </label>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
